@@ -1,0 +1,35 @@
+name: flutter_colosseum
+description: RayAeron
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.1.0
+  shared_preferences: ^2.0.12
+
+flutter_icons:
+   android: "launcher_icon"
+   ios: true
+   image_path: "assets/icon/icon.webp"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+  fonts:
+    - family: MDIcons
+      fonts:
+        - asset: assets/icons/MdIcons.ttf
