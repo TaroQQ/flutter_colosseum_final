@@ -173,7 +173,8 @@ class _TaleDetailPageState extends State<TaleDetailPage>
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  padding: const EdgeInsets.symmetric(
+                      horizontal: 10), //это ширина текста внутри карточки//
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
