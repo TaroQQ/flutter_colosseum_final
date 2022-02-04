@@ -138,6 +138,30 @@ class _TaleDetailPageState extends State<TaleDetailPage>
                 //---------------------
                 // Картинка рассказа
                 //---------------------
+                Dismissible(
+                  direction: DismissDirection.vertical,
+                  key: UniqueKey(), //Key('tale ${tales[index]}'),
+                  onDismissed: (DismissDirection direction) {
+                    if (direction == DismissDirection.down) {
+                      print("Закрываю рассказ");
+                      _backButtonTap;
+                    }
+                    setState(() {
+                      _backButtonTap();
+                    });
+                  },
+                  child: Container(
+                    width: 1000,
+                    height: 40,
+                    margin: const EdgeInsets.only(top: 50),
+                    child: Image.asset(
+                      'assets/swipe_gif/swipe_down.gif',
+                      height: 30,
+                      width: 30,
+                      alignment: Alignment.topCenter,
+                    ),
+                  ),
+                ),
                 SafeArea(
                   child: Hero(
                     tag: widget.tale.pathImage!,

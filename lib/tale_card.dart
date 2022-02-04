@@ -85,29 +85,20 @@ class TaleCard extends StatelessWidget {
                     style: Theme.of(context).textTheme.headline5,
                   ),
                 ),
-                const SizedBox(height: 25), //25
-                Text.rich(
-                  const TextSpan(
-                    text: 'Читать далее...',
-                    children: [
-                      WidgetSpan(
-                        alignment: PlaceholderAlignment.middle,
-                        child: Icon(
-                          Icons.arrow_right_alt,
-                          color: Colors.amber,
-                        ),
-                      )
-                    ],
+                Container(
+                  height: 100,
+                  alignment: Alignment.center,
+                  margin: const EdgeInsets.only(left: 60),
+                  child: Image.asset(
+                    'assets/swipe_gif/swipe_up.gif',
+                    height: 50,
+                    width: 50,
+                    alignment: Alignment.topCenter,
                   ),
-                  style: GoogleFonts.spartan(
-                    color: Colors.amber,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                  ),
-                )
+                ),
               ],
             ),
-          )
+          ),
         ],
       ),
     );
