@@ -120,21 +120,21 @@ class _TaleSliderPageState extends State<TaleSliderPage> {
                 }),*/
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("1 ЭПИЗОД"),
+                title: const Text("1 Однажды утром"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[0]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("2 ЭПИЗОД"),
+                title: const Text("2 Встреча"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[1]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("3 ЭПИЗОД"),
+                title: const Text("3 Цвет Надежды"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[2]);
