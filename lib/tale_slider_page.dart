@@ -141,98 +141,98 @@ class _TaleSliderPageState extends State<TaleSliderPage> {
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("4 ЭПИЗОД"),
+                title: const Text("4 Завтрак"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[3]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("5 ЭПИЗОД"),
+                title: const Text("5 Время и его причуды"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[4]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("6 ЭПИЗОД"),
+                title: const Text("6 Прометей"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[5]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("7 ЭПИЗОД"),
+                title: const Text("7 Внутренний огонь"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[6]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("8 ЭПИЗОД"),
+                title: const Text("8 Скамейка"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[7]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("9 ЭПИЗОД"),
+                title: const Text("9 Колодец"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[8]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("10 ЭПИЗОД"),
+                title: const Text("10 Паритет"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[9]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("11 ЭПИЗОД"),
+                title: const Text("11 Обыкновенный вечер"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[10]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("12 ЭПИЗОД"),
+                title: const Text("12 Ночь, дорога, навигатор"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[11]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("13 ЭПИЗОД"),
+                title: const Text("13 Путь в никуда"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[12]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("14 ЭПИЗОД"),
+                title: const Text("14 Изумрудный город... сейчас"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[13]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("15 ЭПИЗОД"),
+                title: const Text("15 Отражение"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[14]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("16 ЭПИЗОД"),
+                title: const Text("16 Свет мой, зеркальце..."),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[15]);
                 }),
             ListTile(
                 leading: const Icon(Icons.library_books),
-                title: const Text("17 ЭПИЗОД"),
+                title: const Text("17 Переподготовка зла, или Что-то новое…"),
                 onTap: () {
                   Navigator.of(context).pop();
                   _openDetail(context, tales[16]);
